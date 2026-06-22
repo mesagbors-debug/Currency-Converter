@@ -3,11 +3,10 @@ body {
       background: #0f172a;
       color: #e5e7eb;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
-      height: 100vh;
+      min-height: 100vh;
       margin: 0;
-
     }
 
     .converter {
@@ -16,6 +15,15 @@ body {
       border-radius: 18px;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
       width: 320px;
+      margin: auto 0 0;
+    }
+
+    footer {
+      width: 100%;
+      padding: 16px 0;
+      text-align: center;
+      color: #9ca3af;
+      margin-top: auto;
     }
 
     .converter h1 {
